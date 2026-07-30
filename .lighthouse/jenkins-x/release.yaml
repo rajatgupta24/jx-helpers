@@ -20,6 +20,9 @@ spec:
           name: ""
           resources: {}
         - name: next-version
+          env:
+          - name: TAG_SUFFIX
+            value: -pre
           resources: {}
         - name: jx-variables
           resources: {}
